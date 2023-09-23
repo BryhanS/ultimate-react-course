@@ -145,7 +145,6 @@ function getBook(id) {
 
 // Destructuring
 
-/*
 const book = getBook(3);
 book;
 
@@ -168,17 +167,18 @@ newGenres;
 
 const updatedBook = {
   ...book,
-  // Adding a new property
+  //Adding a new property
   moviePublicationDate: "2001-12-19",
 
-  // Overwriting an existing property
+  //Overwriting an existing property
   pages: 1210,
 };
+pages;
 updatedBook;
-
-// function getYear(str) {
-//   return str.split("-")[0];
-// }
+/*
+function getYear(str) {
+  return str.split("-")[0];
+}
 
 const getYear = (str) => str.split("-")[0];
 console.log(getYear(publicationDate));
